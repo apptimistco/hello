@@ -1,0 +1,3 @@
+#!/bin/bash
+
+command go build -v -tags "netgo" -ldflags '-linkmode external -extldflags "-static"'
